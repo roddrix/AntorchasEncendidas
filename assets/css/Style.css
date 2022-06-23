@@ -31,7 +31,7 @@ body{
 
 .navbarIndex{
     grid-area: nav;
-    background-color: yellow;
+    background-color: #F3E901;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -105,6 +105,7 @@ body{
 
 .jovenesNav h2 a {
     text-decoration: none;
+    color: black;
 }
 
 
@@ -163,24 +164,26 @@ body{
     .headerQuienesSomos{
         grid-area: "headerQuienesSomos";
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-content: center;
         flex-wrap: wrap;
     }
     
         .headerQuienesSomos h1{ 
             color: white;
-            font-family: "zen dots";
+            font-family: "Staatliches";
             text-align: center;
-            font-size: 20px;
+            align-items: center;
+            width: 600px;
+            font-size: 25px;
 
-            margin: 10px 20px;
+            margin: 10px 20px 50px 20px;
         }
 
     .videoHeaderQuienesSomos{
         width:300px;
         border-radius: 20px;
-        margin: 30px 20px;
+        margin: 40px 20px;
         align-items: center;
         
     }
@@ -210,7 +213,7 @@ body{
 
     .h2Main h2{
         color: white;
-        font-family: zen dots;
+        font-family: "Staatliches";
         font-size: 14px;
         text-align: center;
     }  
@@ -220,19 +223,24 @@ body{
         grid-area: "mainQuienesSomos";
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; }
+        justify-content: center;
+        align-items: center; }
         
         .mainQuienesSomos img{
                 border-radius: 120px;
                 width: 200px;
                 margin: 20px 20px 10px 20px;}
 
-        .mainQuienesSomos a {
+        .divMainQuienesSomos a {
                 margin: 20px;
+                border: solid orange;
+                border-radius: 10px;
+                padding: 20px;
                 text-decoration: none;
                 color: white;
-                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-size: 20px;}
+                font-family: sans-serif;
+                font-size: 20px;
+                justify-content: space-evenly;}
 
         .mainQuienesSomos h2 {
                 margin: 20px;
@@ -243,13 +251,13 @@ body{
                 font-size: 20px;}
             
     .divMainQuienesSomos{
-        height: 80px;
-        align-items: center;}
+        height: 50px;
+        align-items: center;
+        display: flex;}
 
-            .divMainQuienesSomos a:hover{
-                padding: 2px;
-                background-color: yellow;
-                border-radius: 20px;}
+    .colorB {background-color: red;}
+    .colorA {background-color: purple;}
+
             
     .cajaIglesia {
         display: flex;
@@ -268,10 +276,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .mapaFooter{
     margin: 20px;
+}
+
+.mapa2Footer iframe{
+    display: none;
 }
 .h3Footer{ 
     background-color: brown;
@@ -292,14 +305,15 @@ body{
     font-size: 15px;
 }
 
-aside {background-color: brown;
-    color: white;
+aside {background-color: #F2B705;
+    color: black;
     font-size: 15px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    }
 
 
 aside ul{
@@ -317,7 +331,7 @@ aside ul li{
 }
 
 aside ul li a{
-    color: white;
+    color: black;
     font-family: zen dots;
     text-align: center;
 }
@@ -345,21 +359,6 @@ aside ul li a{
         .ulCampa {width: 200px;
             margin: 10px 20px;}
 
- .headerQuienesSomos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    }
-        .headerQuienesSomos h1{
-            width: 200px;
-        }
-    .divMainQuienesSomos{
-        background-color: orange;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
 
     
 
@@ -382,16 +381,34 @@ aside ul li a{
         display: flex;
         justify-content: center;
         flex-direction:column;
-        margin: 0px 30px 0px 0px;
-        
+        margin: 0px 30px 0px 0px;   
     }
+
+    /*QUIENES SOMOS*/
+
+
+ .headerQuienesSomos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+        .headerQuienesSomos h1{
+            width: 200px;
+        }
+    .divMainQuienesSomos{
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
 /*main*/
 
-    .imgMain{
-        display: flex;
-        align-items: center;
-        margin: 20px 0pc 0px 0px;
-    }
+.imgMain{
+    display: flex;
+    align-items: center;
+    margin: 20px 0pc 0px 0px;}
     .imgMain img{
         margin: 20px;
         border-radius: 20px;
@@ -408,14 +425,15 @@ aside ul li a{
 
     .ulGeneral {
         flex-direction: row;
-        width: 600px;
+        width: 500px;
     }
 
 
     .ulGeneral li 
         {margin: 10px 0px;
         justify-content: center;
-        align-items: center;}
+        align-items: center;
+        }
         
         .ulGeneral li:hover{
             background-color: orange;
@@ -425,79 +443,123 @@ aside ul li a{
             
             .ulGeneral li a {
                 color: black;
-                font-size: 17px;
+                font-size: 20px;
                 padding: 3px;
+                
+                text-align: center;
+                
             }    
             
             .ulGeneral li a:hover {
                 color: white;
-                font-size: 17px;
-                padding: 3px;
+                font-size: 20px;
+                
             }    
             
             
             .ulCampa {
-                width: 200px;
+                width: 300px;
                 margin: 10px 20px;}
                 
                 .ulCampa li:hover {
                     background-color: orange; }
+                .ulCampa li a {
+                    font-size: 20px;
+                }
 
-/*header*/
-                    
-    .logotipoHeader{
-        display: flex;
+/*HEADER*/
+
+    .headerIndex{
+        margin: 50px 0px;
         justify-content: center;
-        margin:10px 0px 10px 0px;
-        height: 200px;    }
+    }
+                        
+        .logotipoHeader{
+            display: flex;
+            justify-content: center;
+            margin:10px 0px 10px 0px;
+            height: 200px; }
 
+        .gifHeader{
+            margin-left: 400px;
+            margin-right: 0px;
+        }
 
+        .h1Header {
+            margin: 0px 50px;
+        }
+
+        .wave img{
+            height: 100px;
+        }
+
+/*QUIENES SOMOS*/
+
+.headerQuienesSomos h1 {
+    width: 400px;
+    font-size: 40px;
+}
+.headerQuienesSomos{
+    grid-area: "headerQuienesSomos";
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.divMainQuienesSomos{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    background-color: #F2B705;}
 
 /*main*/
 
-    .logoMain{
-        display: none;
-        margin: 20px 0px 10px 10px;
-        border-radius: 20px;
+
+    
+    .mainIndex{
+        padding: 0px;
+        margin: 30px 0px 0px 0px;
         align-items: center;
-    }
+        justify-content: center;}
+        
+        .logoMain{
+            display: none;
+            margin: 20px 0px 10px 10px;
+            border-radius: 20px;
+            align-items: center;
+        }
 
     .imgMain{
-        overflow: scroll;
-        width: 350px;
-        height: 350px;
-        margin: 90px 0px;}
+        justify-content: center;
+        align-items: center;
+        margin: 30px 150px 0px 0px;
+        overflow: hidden;}
 
-        .mainIndex{
-            padding: 0px;
-            margin: 30px 0px;
-            align-items: center;
-            justify-content: space-around;}
             
-            .imgMain{
-            
-                width: 400px;
-                border-radius: 20px;
-                padding: 0%;
-                margin: 20px;
-                overflow: visible;}
-     .imgMain img {
-         margin: 20px 0px 20px 20px;  
-         width: 400px;
-         border-radius: 20px;
-                }
+        .imgMain img {
+            border-radius: 20px;
+            width: 600px; }
                 
-        .h2Main{
-            width: 400px;
-            height: 68px;
-            margin: 0px 0px 10px 10px;
+    .h2Main{
+        width: 450px;
+        height: 250px;
+        margin: 0px 0px 10px 0px;
+        align-items: center;
+        
                 }
                 
         .h2Main h2{
             color: white;
-            font-family: zen dots;
-            font-size: 20px;
+            font-family: "Staatliches";
+            font-size: 55px;
+            line-height: 55px;
             text-align: center; }
+
+            /*QUIENES*/
+
+.mainQuienesSomos h2 {
+    font-size: 20px;
+}
 
 
 /*footer*/
@@ -505,40 +567,119 @@ aside ul li a{
 .footerIndex{
     background-color: black;
     display: flex;
-    margin: 50px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 .footerIndex div{display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 }
 
-.h3Footer {height: 50px;
-align-items: center;}
+.contenedorFlex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+    .h3Footer {height: 50px;
+                align-items: center;
+                margin: 15px 0px 0px 0px;
+                padding: 0px;
+                font-size: 25px;}
 
-.h4Footer h4{ color: yellow;}
+                .h3Footer h3 {
+                    font-size: 25px;}
+    
+    .h4Footer h4{ color: yellow;
+                 margin: 0px 0px 100px 0;
+                 font-size: 25px;   }
+    
+                    
+ .wave2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.wave2 img{
+    width: 100%;
+}
+
+.wave img{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.mapaFooter2 {
+    margin: 0px;
+}
+.mapaFooter iframe{
+    display:none;
+}
+
+.mapa2Footer iframe {
+    display: flex;
+}
 
 .derechosFooter {width: 400px;
 align-items: center;
 color: black;}
 
-.wave2{
-    height: 100px;
+/*QUIENES SOMOS*/    
+
+.divMainQuienesSomos {
+    justify-content: space-evenly;
+}
+
+.divMainQuienesSomos a {
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+.colorA{
+    padding: 10px;
+}
+.colorA:hover {
+    background-color: violet;
+    border-radius: 20px;
+    align-items: center;
     
+}
+.colorB{
+    padding: 10px;
+}
+.colorB:hover {
+    background-color: red;
+    border-radius: 20px;
+    align-items: center;
 }
 /*aside*/
 
 aside {align-items: center;
 background-color: #F2B705;
+display: flex;
 width: 100%;}
 
 
 
 aside ul li a{
     color: black;
-
+    font-size: 20px ;
 }
 
+aside ul li {
+    margin: 20px;
+}
+
+.derechosFooter h4 {
+    font-size: 20px;
+}
 
 
 }
