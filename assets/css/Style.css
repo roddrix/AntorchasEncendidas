@@ -265,7 +265,46 @@ body{
         flex-wrap: wrap;
         margin: 20px;
         align-items: center;}
-            
+
+    /*UBICACION*/
+
+    .mainUbicacion{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapaChico{
+        margin: 20px;
+    }
+
+    .mapaGrande{
+        display: none;
+    }
+
+    .tarjeta1{
+        background-color: brown;
+        border-radius: 20px;
+        margin: 20px 0px 0px 0px;
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tarjeta1 h1 {
+        font-size: 30px;
+        font-family: "zen dots";
+        color: white;
+    }
+
+    .tarjeta1 h2 {
+        font-family: "zen dots";
+        font-size: 10;
+        color: white;
+    }
             
 
 /*FOOTER*/
@@ -532,7 +571,8 @@ aside ul li a{
     height: 100px;
     align-items: center;
     display: flex;
-    background-color: #F2B705;}
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,13,138,1) 28%, rgba(234,12,12,1) 67%, rgba(0,0,0,1) 98%);}
 
 /*main*/
     
@@ -710,6 +750,10 @@ aside ul li {
     justify-content: space-evenly;
 }
 
+.logotipoHeader {
+    margin: 0px 20px 0px 50px;
+}
+
   /*MAIN*/
 .mainIndex {
     display: flex;
@@ -726,8 +770,16 @@ aside ul li {
 .h2Main {
     padding: 90px 0px 0px 0px;
 }
-
-
+.mainUbicacion {
+    justify-content: space-evenly;
+}
+.mapaGrande {
+    display: flex;
+    margin: 20px;
+}
+.mapaChico {
+    display: none;
+}
 }
 
 
