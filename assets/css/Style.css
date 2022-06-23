@@ -366,8 +366,9 @@ aside ul li a{
             
     .headerIndex{display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: center;
                 align-items: center;
+                margin: 20px 0px;
                 }
     .logotipoHeader{
         display: flex;
@@ -394,7 +395,8 @@ aside ul li a{
     flex-wrap: wrap;
     }
         .headerQuienesSomos h1{
-            width: 200px;
+            width: 250px;
+            font-size: 35px;
         }
     .divMainQuienesSomos{
         
@@ -405,14 +407,35 @@ aside ul li a{
 
 /*main*/
 
+.mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
 .imgMain{
     display: flex;
     align-items: center;
-    margin: 20px 0pc 0px 0px;}
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    width: 100%;}
+
     .imgMain img{
-        margin: 20px;
+        margin: 0px;
         border-radius: 20px;
+        align-items: center;
+
     }
+
+.h2Main h2 {
+     margin: 0px;
+     font-size: 30px;
+}
+
+
 }
 
 @media (min-width:992px){
@@ -477,12 +500,11 @@ aside ul li a{
         .logotipoHeader{
             display: flex;
             justify-content: center;
-            margin:10px 0px 10px 0px;
+            margin:10px 20px 10px 0px;
             height: 200px; }
 
         .gifHeader{
-            margin-left: 400px;
-            margin-right: 0px;
+            margin: 0px;
         }
 
         .h1Header {
@@ -513,8 +535,6 @@ aside ul li a{
     background-color: #F2B705;}
 
 /*main*/
-
-
     
     .mainIndex{
         padding: 0px;
@@ -524,16 +544,13 @@ aside ul li a{
         
         .logoMain{
             display: none;
-            margin: 20px 0px 10px 10px;
-            border-radius: 20px;
-            align-items: center;
         }
 
-    .imgMain{
-        justify-content: center;
-        align-items: center;
-        margin: 30px 150px 0px 0px;
-        overflow: hidden;}
+        .imgMain{
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0px 60px 0px;
+            overflow: hidden;}
 
             
         .imgMain img {
@@ -559,6 +576,7 @@ aside ul li a{
 
 .mainQuienesSomos h2 {
     font-size: 20px;
+    
 }
 
 
@@ -570,18 +588,18 @@ aside ul li a{
     margin: 10px 0px 0px 0px;
 }
 
-.footerIndex div{display: flex;
+.footerIndex div{
+display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-evenly;
 }
 
 .contenedorFlex{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin: 50px 20px 20px 0px;
+    
     
 }
     .h3Footer {height: 50px;
@@ -679,6 +697,34 @@ aside ul li {
 
 .derechosFooter h4 {
     font-size: 20px;
+}
+
+
+}
+
+@media (min-width:1200px) {
+
+    /*HEADER*/
+
+.headerIndex {
+    justify-content: space-evenly;
+}
+
+  /*MAIN*/
+.mainIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+}
+
+.imgMain {
+    width: 600px;
+    margin: 70px 0px 0px 0px;
+}
+
+.h2Main {
+    padding: 90px 0px 0px 0px;
 }
 
 
