@@ -389,7 +389,7 @@ body{
 
 .footerIndex{
     grid-area: footer;
-    background-color: yellow;
+    background-color: orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -429,7 +429,7 @@ body{
 h4{
     font-size: 7px;
 }
-aside {background-color: #F2B705;
+aside {background-color: yellow;
     color: black;
     font-size: 10px;
     text-align: center;
