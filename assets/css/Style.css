@@ -5,6 +5,74 @@ body{
     background-color: black;
 }
 
+.boxGif{
+    width: 230px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.fnt{
+    font-family: "Zen Dots";
+    font-size: 13px;
+}
+
+.boxText{
+    font-family: "Zen Dots";
+    font-size: 25px;
+    text-align: center;
+    width: 260px;
+    color: white;
+}
+.boxText2{
+    font-family: "Zen Dots";
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    color: white;
+}
+.fnt2{
+    font-family: "Zen Dots";
+    font-size: 15px;
+    color: white;
+}
+.map2{
+    display: none;
+}
+
+@media (min-width: 992px) {
+
+.fnt {
+    font-size: 15px;
+}
+
+.navbar-brand{
+    display: none;
+}
+.borderNone{
+    border: none;
+}
+.map2 {
+    display: flex;
+}
+}
+
+
+
+
+.amarillo{
+    background-color: yellow;
+}
+
+
+.anchoAuto{
+    width: 100%;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
 /*DISPLAY GRID*/
 
 .conteinerIndex{

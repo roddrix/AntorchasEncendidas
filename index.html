@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antorchas Encendidas</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"   rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/671805feac.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,47 +25,52 @@
 
 
 <body class="conteinerIndex">
-    <nav class="navbarIndex">
-        
-        <div class="navBox1">
 
-             <ul class="ulGeneral">
-            <li><a href="./pages/quienes somos.html">Quienes somos</a></li>
-            <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
-            <li><a href="./pages/calendario.html">Proximas Actividades</a></li>
-             </ul>
-        
-            <ul class="ulCampa">
-            <li><a href="./pages/campamento.html"> CAMPAMENTO INSCRIPCIONES 2022</a></li>
+    <nav class="navbar navbar-expand-lg amarillo">
+        <div class="container-fluid ">
+          <a class="fnt mt-2 navbar-brand" href="#">Jovenes Cristianos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mb-3 mt-3 border-bottom border-dark border-top borderNone" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+              <li class="nav-item">
+                <a class="fnt nav-link" aria-current="page" href="./pages/quienesSomos.html">- Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="fnt nav-link" href="./pages/ubicacion.html">- Ubicacion Iglesia</a>
+              </li>
+              <li class="fnt nav-item">
+                <a class="nav-link" href="./pages/calendario.html">- Proximas Actividades</a>
+              </li>
             </ul>
+            <div class="border-bottom border-dark border-lg-0 borderNone">
+              <a class="nav-item nav-link text-center border-dark border p-1 " href="./pages/campamento.html">CAMPAMENTO INSCRIPSIONES 2022</a>
+            </div>
+          </div>
         </div>
-    
-        <div class="jovenesNav">
-            <h2><a href="./index.html">JOVENES CRISTIANOS</a></h2>
-        </div>
-    </nav>
-    
+      </nav>  
 
 
     <header class="headerIndex">
         
         <div class="logotipoHeader"> 
-            <img src="../assets/img/logotipo.png" alt="logotipo antorchas">
+            <img src="./assets/img/logotipo.png" alt="logotipo antorchas">
         </div>
         <div class="gifHeader">
-            <img src="../assets/giphy.gif" alt="">GIF una cruz
+            <img src="./assets/giphy.gif" alt="GIF una cruz">
         </div>
         <div class="h1Header">
             <h1>UNiDOS POR UNA MISMA PASIÒN</h1>
         </div>
         <div class="wave" >
-            <img src="../assets/img/Vector.png" alt="">
+            <img src="./assets/img/Vector.png" alt="">
         </div>
     </header>
     
     <main class="mainIndex" >
         <div class="imgMain">
-            <img src="../assets/img/foto-chicos.png" alt="foto grupo de jovenes">
+            <img src="./assets/img/foto-chicos.png" alt="foto grupo de jovenes">
         </div>
         <div class="logoMain">
             <img src="../assets/img/logoAntorchas.png" alt="">
@@ -93,7 +100,7 @@
             </div>
         </div>
         <div class="wave2"> 
-            <img src="../assets/img/Vector.png" alt="decoracionOla">
+            <img src="./assets/img/Vector.png" alt="decoracionOla">
         </div>
         
         
@@ -112,6 +119,12 @@
     <script>
         AOS.init();
       </script>
+      <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
     
 </body>
 </html>
