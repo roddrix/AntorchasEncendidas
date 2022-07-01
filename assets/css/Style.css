@@ -45,7 +45,6 @@ background: linear-gradient(180deg, rgba(254,255,0,1) 0%, rgba(247,220,0,1) 39%,
 }
 
 
-
 .amarillo{
     background-color: yellow;
 }
@@ -80,87 +79,6 @@ background: linear-gradient(180deg, rgba(254,255,0,1) 0%, rgba(247,220,0,1) 39%,
                         "headerQuienesSomos"
                         "MainQUienesSomos"
                         "footer";
-}
-
-/*NAV*/
-
-.navbarIndex{
-    grid-area: nav;
-    background-color: #F3E901;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-}
-
-.navBox1 {
-    margin: 7px;
-    border-top: solid;
-    border-bottom: solid;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-
-.ulGeneral {
- width: 220px; 
- display: flex;
- flex-direction: column;
-}
-
-    .ulGeneral li {
-    list-style: none;
-    width: 190px;
-    margin: 20px 0px;
-    display: flex;
-    justify-content: center;
-    }
-
-        .ulGeneral li a {
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: black;
-            display: flex;
-            text-decoration: none;
-        }
-
-
-
-.ulCampa{
-    display: flex;
-    width: 70px;
-    justify-content: center;
-    margin: 10px 20px 10px 0px;
-}
-
-    .ulCampa li {
-        list-style: none;
-        text-align: center;
-        display: flex;
-        border: solid 1px;
-        padding: 5px;
-        
-
-    }
-
-        .ulCampa li a{
-            text-decoration: none;
-            display: flex;
-        }
-
-
-
-
-.jovenesNav h2{
-    display: flex;
-    font-family: zen dots;
-    font-size: 15px;
-    margin-left: 10px;
-}
-
-.jovenesNav h2 a {
-    text-decoration: none;
-    color: black;
 }
 
 
@@ -416,7 +334,7 @@ background: linear-gradient(180deg, rgba(254,255,0,1) 0%, rgba(247,220,0,1) 39%,
 h4{
     font-size: 7px;
 }
-aside {background-color: yellow;
+footer {background-color: yellow;
     color: black;
     font-size: 10px;
     text-align: center;
@@ -427,7 +345,7 @@ aside {background-color: yellow;
     }
 
 
-aside ul{
+footer ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -436,12 +354,12 @@ aside ul{
     
 }
 
-aside ul li{
+footer ul li{
     margin: 5px 10px 5px 0px;
     
 }
 
-aside ul li a{
+footer ul li a{
     color: black;
     font-family: zen dots;
     text-align: center;
@@ -456,22 +374,6 @@ aside ul li a{
 
 
 @media (min-width:576px){
-
- /*NAV*/
-    .navBox1 {justify-content: space-between;}
-
-    .ulGeneral li {margin: 10px 0px;
-        justify-content: start;}
-        
-        .ulGeneral li a{
-            color: black;
-        }
-
-       
-        .ulCampa {width: 200px;
-            margin: 10px 20px;}
-
-
     
 
 /*header*/
@@ -552,65 +454,9 @@ aside ul li a{
 
 @media (min-width:992px){
 
-/*nav*/
-
-    .navBox1   
-    {justify-content: space-between;
-    height: 90px;}
-
-    .ulGeneral {
-        flex-direction: row;
-        width: 500px;
-    }
-
-
-    .ulGeneral li 
-        {margin: 10px 0px;
-        justify-content: center;
-        align-items: center;
-        }
-        
-        .ulGeneral li:hover{
-            background-color: orange;
-            border-radius: 20px;
-            height: 40px;
-            color: white;}
-            
-            .ulGeneral li a {
-                color: black;
-                font-size: 20px;
-                padding: 3px;
-                
-                text-align: center;
-                
-            }    
-            
-            .ulGeneral li a:hover {
-                color: white;
-                font-size: 20px;
-                
-            }    
-            
-            
-            .ulCampa {
-                width: 300px;
-                margin: 10px 20px;}
-                
-                .ulCampa li:hover {
-                    background-color: orange; }
-                .ulCampa li a {
-                    font-size: 20px;
-                }
-                .fnt {
-                    font-size: 15px;
-                }
-                
-                .navbar-brand{
-                    display: none;
-                }
-                .borderNone{
-                    border: none;
-                }
+.navbar-brand{
+    display: none;
+}
                 .map2 {
                     display: flex;
                 }
@@ -633,7 +479,7 @@ aside ul li a{
         }
 
         .h1Header {
-            margin: 0px 50px;
+            margin: 30px 50px 50px 50px;
         }
 
         .wave img{
@@ -804,21 +650,21 @@ color: black;}
     border-radius: 20px;
     align-items: center;
 }
-/*aside*/
+/*footer*/
 
-aside {align-items: center;
+footer {align-items: center;
 background-color: #F2B705;
 display: flex;
 width: 100%;}
 
 
 
-aside ul li a{
+footer ul li a{
     color: black;
     font-size: 20px ;
 }
 
-aside ul li {
+footer ul li {
     margin: 20px;
 }
 
