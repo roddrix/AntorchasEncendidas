@@ -6,7 +6,8 @@ body{
 }
 
 /*funte*/
-.fnt {font-family: "zen dots";}
+.fnt {font-family: "zen dots";
+}
 
 .fnt2{
     font-family: "bebas neue";
@@ -15,7 +16,7 @@ body{
 .gif{
     overflow: hidden;
     width: 200px;
-    height: 300px;
+    height: 288px;
 }
 
 .light{
@@ -58,9 +59,9 @@ body{
 @media (min-width:1200px){
     .fnt {
     font-family: "zen dots";
-    font-size: 17px;}
+    font-size: 18px;}
     .txt{
-        font-size: 30px;
+        font-size: 100px;
     }
     .txt1{
         font-size: 30px;
