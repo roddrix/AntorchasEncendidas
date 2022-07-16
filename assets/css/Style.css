@@ -1,120 +1,88 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*funte*/
-.fnt {font-family: "zen dots";
+body {
+  background-color: #000000;
 }
 
-.fnt2{
-    font-family: "bebas neue";
+nav {
+  background-color: #F3E901;
+}
+nav a {
+  font-family: "zen dots";
 }
 
-.gif{
-    overflow: hidden;
-    width: 200px;
-    height: 288px;
+header div p {
+  font-family: "zen dots";
 }
 
-.light{
-    color: white;
+main div p {
+  font-family: "Zilla Slab Highlight";
+  font-size: 18px;
+  font-style: normal;
 }
 
-.txt{
-    font-size: 22px;
+.rotate {
+  transform: rotate(-180deg);
 }
 
-.rotate{
-    transform: rotate(-180deg);
+.gif {
+  overflow: hidden;
+  width: 220px;
+  height: 288px;
 }
 
-
-.fondoFooter{
-    background-image: url("/assets/img/Vector.svg");
+footer {
+  font-family: "zen dots";
+  font-size: 10px;
 }
 
-@media (min-width:560px){
-    .txt{
-        font-size: 25px;
-    }
-    .txt1{
-        font-size: 15px;
-    }
-}
-@media (min-width:992px){
-    .txt{
-        font-size: 30px;
-    }
-    .txt1{
-        font-size: 15px;
-    }
-    .height{
-        height: 350px;
-    }
-}
-
-@media (min-width:1200px){
-    .fnt {
-    font-family: "zen dots";
-    font-size: 18px;}
-    .txt{
-        font-size: 100px;
-    }
-    .txt1{
-        font-size: 30px;
-    }
-    .max-width{
-        width: 500px;
-    }
-}
-
-
-.container {
-    position: relative;
-    width: 50%;
-  } 
-
-.container1{
-    width: 100%;
-}
-  
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+@media (min-width: 576px) {
+  main div p {
+    font-size: 35px;
   }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  footer {
+    font-size: 20px;
   }
-  
-  .container:hover .image {
-    opacity: 0.3;
+  header {
+    font-size: 30px;
   }
-  
-  .container:hover .middle {
-    opacity: 1;
-    
+}
+@media (min-width: 991.98px) {
+  .border-lg-none {
+    border-bottom: 0ch;
   }
-  
-  .text {
-    background-color: #e6b904;
-    color: black;
-    font-family: "zen dots";
-    font-size: 16px;
-    padding: 16px 32px;
-    border-radius: 20px;
+  main div p {
+    font-size: 45px;
   }
+  footer {
+    font-size: 15px;
+  }
+  header {
+    font-size: 30px;
+  }
+  aside {
+    font-size: 30px;
+  }
+}
+#dios {
+  color: #08b5ef;
+}
+
+#jesus {
+  color: #ffffff;
+}
+
+#jesusEsVida {
+  color: #08b5ef;
+}
+
+#luz {
+  color: #e5ff00;
+}
+
+#alert {
+  font-family: "Bebas Neue";
+}/*# sourceMappingURL=style.css.map */
