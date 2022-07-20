@@ -40,6 +40,10 @@ footer {
   font-size: 10px;
 }
 
+.ancho {
+  width: 50%;
+}
+
 @media (min-width: 576px) {
   main div p {
     font-size: 35px;
@@ -67,6 +71,9 @@ footer {
   aside {
     font-size: 30px;
   }
+  .ancho {
+    width: 25%;
+  }
 }
 #dios {
   color: #08b5ef;
@@ -82,6 +89,10 @@ footer {
 
 #luz {
   color: #e5ff00;
+}
+
+#obscuridad {
+  color: #33332f;
 }
 
 #alert {

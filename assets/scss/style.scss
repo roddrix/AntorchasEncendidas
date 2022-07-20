@@ -41,13 +41,13 @@ main div p {
     height: 288px;
 }
 
-.w-50{
-    
-}
-
 footer{
     font-family: $font1;
     font-size: 10px;
+}
+
+.ancho{
+    width: 50%;
 }
 
 
@@ -80,6 +80,10 @@ footer{
     aside{
         font-size: 30px;
     }
+    .ancho{
+        width: 25%;
+        }
+
 }
 
 #dios {
@@ -93,6 +97,9 @@ footer{
 }
 #luz{
     color: map-get($map: $palette , $key: 'mainColor2');
+}
+#obscuridad{
+    color: map-get($map: $palette, $key:'mainColor4');
 }
 
 #alert{
