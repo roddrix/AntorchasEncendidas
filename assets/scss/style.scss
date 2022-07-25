@@ -14,9 +14,11 @@ body{
 
 nav{
     background-color: map-get($map: $palette , $key: 'navColor');
+    
 
         a{
         font-family: $font1;
+     
         
         }
 }
