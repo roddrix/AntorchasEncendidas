@@ -43,6 +43,9 @@ footer {
 .ancho {
   width: 50%;
 }
+.ancho2 {
+  width: 50%;
+}
 
 @media (min-width: 576px) {
   main div p {
@@ -73,6 +76,9 @@ footer {
   }
   .ancho {
     width: 25%;
+  }
+  .ancho2 {
+    width: 100%;
   }
 }
 #dios {
