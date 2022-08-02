@@ -11,6 +11,14 @@ body {
 nav {
   background-color: #F3E901;
 }
+nav h1 {
+  font-family: "zen dots";
+  text-decoration: underline;
+  color: black;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}
 nav a {
   font-family: "zen dots";
 }
@@ -43,6 +51,7 @@ footer {
 .ancho {
   width: 50%;
 }
+
 .ancho2 {
   width: 50%;
 }
