@@ -14,8 +14,10 @@ nav {
 }
 nav h1 {
   font-family: "zen dots";
-  color: black;
-  background-color: #ffffff;
+  color: #ffffff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  text-shadow: 3px 5px 2px #474747;
   padding: 10px;
   border-radius: 20px;
 }
