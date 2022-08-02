@@ -10,10 +10,10 @@ body {
 
 nav {
   background-color: #F3E901;
+  font-size: 15px;
 }
 nav h1 {
   font-family: "zen dots";
-  text-decoration: underline;
   color: black;
   background-color: #ffffff;
   padding: 10px;
@@ -21,6 +21,7 @@ nav h1 {
 }
 nav a {
   font-family: "zen dots";
+  text-decoration: none;
 }
 
 header div p {

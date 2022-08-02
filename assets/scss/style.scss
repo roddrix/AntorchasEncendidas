@@ -14,18 +14,19 @@ body{
 
 nav{
     background-color: map-get($map: $palette , $key: 'navColor');
-    
+    font-size: 15px;
     h1{
         font-family: $font1;  
-        text-decoration:underline;
         color: map-get($map: $palette , $key:'color1' );
         background-color: map-get($map: $palette, $key: 'mainColor3' );
         padding: 10px;
         border-radius: 20px;
+     
     }
 
         a{
         font-family: $font1;
+        text-decoration: none;
      
         
         }
